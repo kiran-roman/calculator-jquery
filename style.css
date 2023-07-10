@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+}
+
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #1a1625;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  background-color: #121212;
+  padding: 20px;
+  border-radius: 10px;
+}
+.calculator form input {
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px 10px #1a1818;
+  background: transparent;
+  font-size: 20px;
+  color: aliceblue;
+  cursor: pointer;
+  margin: 5px;
+}
+.calculator form .equal {
+  background-color: rgb(206, 21, 83);
+  width: 135px;
+}
+.calculator form .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+.calculator form .display input {
+  font-family: Digital;
+  text-align: right;
+  flex: 1;
+  font-size: 45px;
+  box-shadow: none;
+  color: orange;
+}/*# sourceMappingURL=style.css.map */
